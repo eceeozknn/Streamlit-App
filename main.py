@@ -79,7 +79,7 @@ def header(Q1=None, Q2=None, Q3=None, Q4=None, food_type=None):
                 
                 prompt = f"Can you suggest a recipe with {flavor} flavor in type of {food_type}, that contains the ingredients: {desired_ingredients} but not including the {allergies}, approximately {calorie} calorie for one meal? Write name of the recipe at first lines, than ingredients with  list and preparation with step by step."
 
-                API_KEY = "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"
+                API_KEY = ""
                 openai.api_key = API_KEY
                 model = "text-davinci-002"
                 response = openai.Completion.create(prompt = prompt, 
