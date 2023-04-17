@@ -1,4 +1,4 @@
-# Streamlit-App
+# Application Example Using ChatGPT & Streamlit
 Recipe recommender application using ChatGPT.
 
 ## Home Page
